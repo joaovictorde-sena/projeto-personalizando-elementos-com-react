@@ -1,14 +1,13 @@
-// import logo from './logo.svg';
 import './App.css';
-import Paragraph from './components/paragraph/paragraph';
-import Button from './components/button/button';
+import StyledText from './components/StyledText';
+import Alertbutton from './components/AlertButton';
 function App() {
   return (
     <>
-       <Paragraph text = "Um parágrafo azul" colorText = 'blue' />
-       <Paragraph text = "Um parágrafo vermelho" colorText = 'red' />
+       <StyledText text = "Um parágrafo azul" colorText = 'blue' />
+       <StyledText text = "Um parágrafo vermelho" colorText = 'red' />
 
-       <Button label="Baixar CV"/>
+       <Alertbutton label="Baixar CV"/>
     </>
   )
  

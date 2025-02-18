@@ -4,9 +4,10 @@ const paragraphStyle = (colorText) => ({
     color: colorText,
     textTransform: 'upperCase'
 });
-const Paragraph = ({text, colorText}) => {
+
+const StyledText = ({text, colorText}) => {
     
     return <p style={paragraphStyle(colorText)}>{text}</p>
 }
 
-export default Paragraph;
+export default StyledText;
